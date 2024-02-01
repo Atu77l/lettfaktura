@@ -3,7 +3,6 @@ import { useSelector, useDispatch } from 'react-redux';
 
 const Counter = () => {
   const countReducer = useSelector((state:any) => state.counter); // Assuming 'counter' is the correct key for the count in your state
-  const listReducer = useSelector((state:any) => state.todoList); // Assuming 'todo' is the correct key for the todoList reducer in your state
   const dispatch = useDispatch();
 
   // use of useRef
