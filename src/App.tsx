@@ -5,6 +5,7 @@ import Admin from './component/Admin/Admin';
 import Error from './component/Error/Error';
 import Counter from './component/Counter/Counter';
 import './App.css'
+import Terms from './component/Terms/Terms';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/register' element={<Register/>}/>
         <Route path='/admin' element={<Admin/>}/>
         <Route path='/counter' element={<Counter/>}/>
+        <Route path='terms' element={<Terms/>}/>
         <Route path='/*' element={<Error/>}/>
       </Routes>
       </BrowserRouter>
