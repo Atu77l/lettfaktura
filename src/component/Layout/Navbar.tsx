@@ -18,6 +18,7 @@ const Navbar = () => {
         <Link to='/admin'><div className='text-l font-semibold p-4'>Customer</div></Link>
         <Link to='/admin'><div className='text-l font-semibold p-4'>About</div></Link>
         <Link to='/admin'><div className='text-l font-semibold p-4'>English</div></Link>
+        <Link to='/terms'><div className='text-l font-semibold p-4'>Terms</div></Link>
         <img src={country} className='h-5 w-10 mt-4'/>
       </div>
       <div className='sm:hidden flex justify-end flex-grow p-4 cursor-pointer' onClick={()=>{setMobileView(!mobileView);}}><MenuIcon sx={{color:"white"}}/></div>
@@ -28,6 +29,7 @@ const Navbar = () => {
       <Link to='/admin'><div className='text-l font-semibold p-2 hover:bg-blue-400'>Customer</div></Link>
       <Link to='/admin'><div className='text-l font-semibold p-2 hover:bg-blue-400'>About</div></Link>
       <Link to='/admin'><div className='text-l font-semibold p-2 hover:bg-blue-400'>English</div></Link>
+      <Link to='/terms'><div className='text-l font-semibold p-4'>Terms</div></Link>
     </div> }
     </>
   )
