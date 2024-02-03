@@ -17,7 +17,7 @@ function App() {
         <Route path='/register' element={<Register/>}/>
         <Route path='/admin' element={<Admin/>}/>
         <Route path='/counter' element={<Counter/>}/>
-        <Route path='terms' element={<Terms/>}/>
+        <Route path='/terms' element={<Terms/>}/>
         <Route path='/*' element={<Error/>}/>
       </Routes>
       </BrowserRouter>
